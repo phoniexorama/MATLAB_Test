@@ -6,8 +6,8 @@ pipeline{
             steps{
                 
                 echo "Build started stage!!";
-                bat 'first.bat'
-                bat 'second.bat'
+                //bat 'first.bat'
+                //bat 'second.bat'
                 echo "It can compile several bat files, but it cannot show the sate has a echo without builed.!";
             }
         }
@@ -15,22 +15,22 @@ pipeline{
         stage('2nd_Path'){
             steps{
                 echo "This stage will open the matlab via code only";
-                bat 'matlab.bat'
+                //bat 'matlab.bat'
             }
         }
         
         stage('3rd_Output'){
             steps{
                 echo 'See batman? %date%  ';
-                bat 'newbatman.bat'
-                bat 'matlab1.bat'
+                //bat 'newbatman.bat'
+                //bat 'matlab1.bat'
             }
         }
         
         stage('4th_Output'){
             steps{
                 echo 'See now? %date%  ';
-                bat 'matlabTest.bat'
+                //bat 'matlabTest.bat'
             }
         }
     }
