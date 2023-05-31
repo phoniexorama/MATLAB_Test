@@ -1,5 +1,7 @@
 pipeline{
-    agent any
+    agent {
+        label 'windows-agent' // Label for the Windows agent node
+    }
     stages{
         
         stage('1st_file_RUN'){
