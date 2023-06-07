@@ -17,6 +17,7 @@ pipeline{
         stage('2nd_Path'){
             steps{
                 echo "This stage will open the matlab via code only";
+                echo "Hello"
                 //bat 'matlab.bat'
             }
         }
