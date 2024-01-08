@@ -1,6 +1,7 @@
 pipeline{
     agent {
-        label 'windows-agent' // Label for the Windows agent node
+        //label 'windows-agent' // Label for the Windows agent node
+        any     
     }
     stages{
         
