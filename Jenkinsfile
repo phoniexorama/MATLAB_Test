@@ -1,8 +1,8 @@
 pipeline{
-    //agent any
-    agent {
-        label 'WinEC2agent' // Label for the Windows agent node  
-    }
+    agent any
+    //agent {
+        //label 'WinEC2agent' // Label for the Windows agent node  
+    //}
     stages{
         
         stage('1st_file_RUN'){
