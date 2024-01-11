@@ -1,7 +1,7 @@
 pipeline{
     //agent any
     agent {
-        label 'windows-agent' // Label for the Windows agent node  
+        label 'WinEC2agent' // Label for the Windows agent node  
     }
     stages{
         
